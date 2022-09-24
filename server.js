@@ -11,6 +11,8 @@ const i18n = require('i18n')
 const initMongo = require('./config/mongo')
 const path = require('path')
 
+//Collaborate with Chris and Denial to make a wonderful Restful API server.
+
 // Setup express server port from ENV, default: 3000
 app.set('port', process.env.PORT || 3000)
 
